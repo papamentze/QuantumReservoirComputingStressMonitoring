@@ -1,0 +1,40 @@
+{
+  "dataset": "road",
+  "modality": "hrv",
+  "cap": 30,
+  "methods": [
+    "memoryless",
+    "esn",
+    "qrc"
+  ],
+  "seeds": [
+    42,
+    3,
+    123,
+    37,
+    73
+  ],
+  "nq": 4,
+  "noisy": false,
+  "jobs": 3,
+  "noise_curve": false,
+  "kappas": [
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0
+  ],
+  "encoder": "per_fold_fit_train_only_impute",
+  "rich": true,
+  "rich_v_multiplex": 3,
+  "rich_observables": "X,Y,Z per qubit + ZZ on edges",
+  "leak": 0.15,
+  "washout": 5,
+  "reservoir_seed": 20260408,
+  "cal_frac": 0.35,
+  "alpha": 0.1,
+  "debounce_m": 3,
+  "n_usable_subjects": 9,
+  "wall_seconds": 494.1
+}

@@ -1,0 +1,4 @@
+dataset,modality,qgru,qlstm,qrc,vqc
+road,eda,0.623,0.634,0.779,0.431
+road,hrv,0.66,0.709,0.732,0.549
+wesad,eda,0.558,0.537,0.701,0.585

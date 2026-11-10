@@ -1,0 +1,9 @@
+test,n,margin_pp,mean_diff,se,p_tost,equivalent
+SUBJ-AVG qrc-esn [auroc_ewma] (independent),0,1.0,,,,False
+SUBJ-AVG qrc-esn [auroc_ewma] (independent),0,2.0,,,,False
+SUBJ-AVG qrc-esn [auroc_ewma] (independent),0,3.0,,,,False
+SUBJ-AVG qrc-esn [auroc_ewma] (independent),0,5.0,,,,False
+POOLED qrc-esn [auroc_ewma] (non-indep),0,1.0,,,,False
+POOLED qrc-esn [auroc_ewma] (non-indep),0,2.0,,,,False
+POOLED qrc-esn [auroc_ewma] (non-indep),0,3.0,,,,False
+POOLED qrc-esn [auroc_ewma] (non-indep),0,5.0,,,,False
