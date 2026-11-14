@@ -1,0 +1,6 @@
+Dataset/
+*.pkl
+.qrc_rescache/
+legacy_rerun/
+__pycache__/
+.venv/

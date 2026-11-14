@@ -1,0 +1,6 @@
+dataset,modality,esn,memoryless,qrc
+road,eda,0.546,0.651,0.723
+road,hrv,0.667,0.842,0.736
+wesad,eda,0.808,0.843,0.711
+wesad,hrv,0.761,0.782,0.725
+wesad,resp,0.888,0.91,0.873

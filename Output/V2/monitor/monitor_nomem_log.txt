@@ -1,0 +1,34 @@
+   wesad/hrv: 6123 windows | 30 hrv feats -> 5 branches | 15 subjects | states {'BASE': 3354, 'AMUSE': 943, 'STRESS': 1826}
+   wesad/hrv: QRCConfig.leak = 0.15 for 'qrc'; 'qrc_nomem' uses 1.0
+wesad/hrv qrc_nomem seed 3: AUROC 0.661  EWMA 0.688  (1162 s)
+wesad/hrv qrc_nomem seed 123: AUROC 0.674  EWMA 0.740  (1122 s)
+wesad/hrv qrc_nomem seed 37: AUROC 0.659  EWMA 0.707  (1121 s)
+wesad/hrv qrc_nomem seed 73: AUROC 0.696  EWMA 0.762  (1156 s)
+   wesad/eda: 6123 windows | 19 eda feats -> 6 branches | 15 subjects | states {'BASE': 3354, 'AMUSE': 943, 'STRESS': 1826}
+   wesad/eda: QRCConfig.leak = 0.15 for 'qrc'; 'qrc_nomem' uses 1.0
+wesad/eda qrc_nomem seed 42: AUROC 0.800  EWMA 0.826  (2165 s)
+wesad/eda qrc_nomem seed 3: AUROC 0.816  EWMA 0.830  (2125 s)
+wesad/eda qrc_nomem seed 123: AUROC 0.823  EWMA 0.851  (2123 s)
+wesad/eda qrc_nomem seed 37: AUROC 0.759  EWMA 0.760  (2137 s)
+wesad/eda qrc_nomem seed 73: AUROC 0.816  EWMA 0.854  (2110 s)
+   wesad/resp: 6123 windows | 15 resp feats -> 6 branches | 15 subjects | states {'BASE': 3354, 'AMUSE': 943, 'STRESS': 1826}
+   wesad/resp: QRCConfig.leak = 0.15 for 'qrc'; 'qrc_nomem' uses 1.0
+wesad/resp qrc_nomem seed 42: AUROC 0.975  EWMA 0.982  (2162 s)
+wesad/resp qrc_nomem seed 3: AUROC 0.973  EWMA 0.985  (2169 s)
+wesad/resp qrc_nomem seed 123: AUROC 0.965  EWMA 0.981  (2264 s)
+wesad/resp qrc_nomem seed 37: AUROC 0.970  EWMA 0.978  (2350 s)
+wesad/resp qrc_nomem seed 73: AUROC 0.972  EWMA 0.983  (2100 s)
+   road/hrv: 8152 windows | 30 feats -> 5 branches | 9 drivers | thr=0.6 prevalence(STRESS)=0.68 | states {'BASE': 2598, 'STRESS': 5554}
+   road/hrv: QRCConfig.leak = 0.15 for 'qrc'; 'qrc_nomem' uses 1.0
+road/hrv qrc_nomem seed 42: AUROC 0.537  EWMA 0.563  (1402 s)
+road/hrv qrc_nomem seed 3: AUROC 0.536  EWMA 0.560  (1426 s)
+road/hrv qrc_nomem seed 123: AUROC 0.495  EWMA 0.512  (1440 s)
+road/hrv qrc_nomem seed 37: AUROC 0.516  EWMA 0.536  (1454 s)
+road/hrv qrc_nomem seed 73: AUROC 0.500  EWMA 0.498  (1424 s)
+   road/eda: 8152 windows | 19 feats -> 6 branches | 9 drivers | thr=0.6 prevalence(STRESS)=0.68 | states {'BASE': 2598, 'STRESS': 5554}
+   road/eda: QRCConfig.leak = 0.15 for 'qrc'; 'qrc_nomem' uses 1.0
+road/eda qrc_nomem seed 42: AUROC 0.523  EWMA 0.534  (2716 s)
+road/eda qrc_nomem seed 3: AUROC 0.517  EWMA 0.523  (2690 s)
+road/eda qrc_nomem seed 123: AUROC 0.465  EWMA 0.443  (2785 s)
+road/eda qrc_nomem seed 37: AUROC 0.515  EWMA 0.516  (2713 s)
+road/eda qrc_nomem seed 73: AUROC 0.491  EWMA 0.480  (2724 s)
